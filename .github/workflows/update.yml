@@ -1,9 +1,6 @@
 name: Update
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron:  '6 * * * *'
+on: workflow_dispatch
 
 jobs:
   scheduled:
